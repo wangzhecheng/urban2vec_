@@ -1,0 +1,2 @@
+pic_form_context:生成各个tupian的context，输入：meta_data（包含各个图片信息的csv），输出：context_ba.pickle(各个图片的context)，data_ba.pickle（所有图片的名称，坐标和人口区）
+pic_form_pair:为street view embedding生成train pair和val pair，输入：context_ba.pickle,输出：train_pair_ba.pickle,val_pair_ba.pickle

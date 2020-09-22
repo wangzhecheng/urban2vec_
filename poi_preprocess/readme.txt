@@ -1,0 +1,4 @@
+poi_crawl_data:使用yelp的api获得给定商户id的评论信息，输入：corpus_dict.pickle（提供全部商户的id），输出：reviews.pickle(爬到的评论)，error.pickle(遇到错误的商户信息)，unfinished.pickle（未完成的商户的id）
+review_form_pair:筛选评论中的词，生成评论中的词与人口区对，输入：census_tract_business_dict_ba.pickle（提供对应商户的人口区信息），reviews.pickle（全部评论），stop_word.txt（停用词表），street_view_ba.pickle（去掉没有街景图的人口区），输出：review_pair_ba.pickle,word_list_ba.pickle（包含评论中所有词的列表）
+embedding：获取glove.6B,读取生成字典
+poi_form_pair:添加类型词的父类，生成类型词与人口区对，将所有对进行数字化，输入：词向量，review_pair_ba.pickle,word_list.pickle,street_view_ba.pickle，census_tract_business_dict_ba.pickle，categories.json（提供所有类的父类信息），输出：docbar.tar（poi embedding的初值），allbar.pickle(所有的对和各个人口区所包含的词)，countbar.pickle（所有词的数量），tonumbar.pickle（词和人口区所对应的数字）

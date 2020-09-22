@@ -1,0 +1,3 @@
+poi_cluster:对最终的embedding进行knn聚类，输入：sv_embedding_10_bar.tar（最后的checkpoint），tonumbar.pickle（对应的tonum），census_tract_business_dict_ba.pickle(提供位置信息)
+poi_demo_regression:对最终的embedding针对人口特征进行回归，输入：sv_embedding_10_bar.tar（最后的checkpoint），tonumbar.pickle（对应的tonum），census_chicago_sub.csv,输出:result.csv
+poi_other_regression:对最终的embedding或者人口特征针对其他特征进行回归，输入：sv_embedding_10_bar.tar（最后的checkpoint），tonumbar.pickle（对应的tonum），real_estate_sale.csv,solar_adoption_ba_all.csv(提供人口特征)输出:result_buy.csv

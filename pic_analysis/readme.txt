@@ -1,0 +1,1 @@
+pic_regression:将街景图的embedding取平均后，对各个人口变量进行回归，同时生成census tract的embedding，输入：census_tract_business_dict_ba.pickle（剔除不含poi的人口区），census_ba_sub.csv,embedding_ba.pickle,fips_ba.pickle,输出：result.csv（回归结果）,streetview_ba.pickle（poi embedding的输入）

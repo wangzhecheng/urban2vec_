@@ -1,0 +1,1 @@
+train_place_embedding：对census tract embedding加入poi的信息，输入：docbar.tar（人口区和词的向量），countbar.pickle（各个词的数量用于进行负采样），allbar.pickle(所有的对以及各个人口区包含的词，用于进行负采样)

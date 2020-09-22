@@ -1,0 +1,1 @@
+pca1：进行降维线性回归，输出在各维度上最高或最低的词或者图片，输入：image_ba,sv_embedding_10_bar,tonumbar,census_bar,street_view（街景图图片文件夹）

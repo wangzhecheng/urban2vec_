@@ -1,0 +1,2 @@
+train_place_embedding:在train pair上对街景图向量进行训练，使用val pair上的结果对样本进行筛选，输入：街景图，train_pair_ba.pickle,val_pair_ba.pickle,街景图，输出：sv_embedding_.tar
+embedding:使用特定模型对全部街景图生成向量，输入：image_ba.pickle（所有图片的图片名），相应的checkpoint，街景图，输出：embedding_ba.tar（向量），fips_ba.tar(对应的人口区)
