@@ -1,6 +1,6 @@
 # Urban2Vec
 
-The code repository for ``Urban2Vec: Incorporating Street View Imagery and POIs for Multi-Modal Urban Neighborhood Embedding''
+The code repository for "Urban2Vec: Incorporating Street View Imagery and POIs for Multi-Modal Urban Neighborhood Embedding" [(link)](https://ojs.aaai.org/index.php/AAAI/article/view/5450)
 
 To cite: 
 
@@ -15,3 +15,5 @@ To cite:
   year={2020}
 }
 ```
+
+The training consists of two steps. (1) Training street view image embedding. The code can be found in `urban2vec_step1`. (2) Incorporating POI information. The code can be found in `urban2vec_step2`.
